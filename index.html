@@ -34,11 +34,11 @@
               <li>The way your eyes light up when you smile.</li>
               <li>How you make even the ordinary feel magical.</li>
               <li>The warmth of your hugs—they feel like home.</li>
-              <li>Your laugh—it’s my favorite sound in the world.</li>
-              <li>The way you look at me like I’m the only one.</li>
+              <li>Your laugh—it's my favorite sound in the world.</li>
+              <li>The way you look at me like I'm the only one.</li>
               <li>How you always know when I need a hug.</li>
               <li>Your kindness—it melts my heart.</li>
-              <li>How you believe in me even when I don’t.</li>
+              <li>How you believe in me even when I don't.</li>
               <li>The way you hold my hand like you never want to let go.</li>
               <li>Your voice—it soothes my soul.</li>
               <li>How you love me, flaws and all.</li>
@@ -46,8 +46,8 @@
               <li>Your silly jokes that make me laugh even on bad days.</li>
               <li>The way you understand me without words.</li>
               <li>How you make me feel like the luckiest person alive.</li>
-</ol>
- and blah blah blah...
+            </ol>
+            and blah blah blah...
           </p>
           <p class="fake-btn">Send</p>
         </div>
@@ -157,7 +157,9 @@
   <script>
     window.addEventListener('load', function() {
       var audio = document.getElementById('background-music');
-      audio.play();
+      document.body.addEventListener('click', function() {
+        audio.play();
+      }, { once: true }); // Play audio on first click
     });
   </script>
 </html>
