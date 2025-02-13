@@ -19,12 +19,12 @@ To run this project, you need a modern web browser that supports HTML5, CSS3, an
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/valentines-day-special.git
+   git clone https://github.com/freddiequinson/carino.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd valentines-day-special
+   cd carino
    ```
 
 3. Open `index.html` in your web browser to view the project.
